@@ -23,7 +23,6 @@
 	
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="jdbcDataSource" />
-		<property name="configLocation" value="mybatis/configuration.xml"></property>
 	</bean>
 
 	<bean id="studentdao" class="org.mybatis.spring.mapper.MapperFactoryBean">
